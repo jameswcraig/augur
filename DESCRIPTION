@@ -1,0 +1,20 @@
+Package: augur
+Title: A Collection of LSTM Models for Asset Forecasting
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "James",
+           family = "Craig",
+           role = c("aut", "cre"),
+           email = "jameswbcraig@gmail.com")
+Description: Access trained models in R serialized data format for price prediction.
+License: MIT + file LICENSE
+Imports:
+  tensorflow,
+  tidyquant,
+  magrittr,
+  keras,
+  dplyr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
